@@ -1,0 +1,40 @@
+
+#map {
+    height: 80%;
+    width: 100%;
+    float: right;
+  }
+
+  html,
+  body {
+    background: black;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-y: hidden;
+    overflow-x: hidden;
+  }
+
+
+  .control-1{
+    margin-left: 30%;
+  }
+
+  .control-button{
+    background-color: #258bff;
+    color: white;
+    border: 0px;
+    height: 15vh;
+    width: 18vw;
+    margin-top: 1%;
+    margin-right: 5%;
+    font-size: 1.5rem;
+  }
+
+  .control-button:hover{
+    background-color: #1f75d6;
+  }
+
+  .control-button:active{
+    background-color: #1262bd;
+  }

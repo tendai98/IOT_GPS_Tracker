@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Client Portal</title>
+
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=GOOGLE_API_KEY&callback=initMap&libraries=&v=weekly" defer></script>
+    <link rel="stylesheet" href="css/client.css">
+
+  </head>
+
+  <body>
+    <script src="js/jquery.js"></script>
+    <script src="js/index.js"></script>
+    <div id="map"></div>
+    
+    <input class="control-button control-1" type="button" value="LOCATION TRACER" onclick="showLocationTrace()"/>
+    <input class="control-button control-1" type="button" value="SHOW DESTINATION" onclick="getDestinationLocation()"/>
+    <input class="control-button" type="button" value="USER LOGOUT" onclick="userLogout()"/>
+  </body>
+</html>
