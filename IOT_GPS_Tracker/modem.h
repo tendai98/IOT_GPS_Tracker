@@ -2,12 +2,12 @@
 
 const char * AT_ECHO = "ATE1";
 const char * AT_CFUN = "AT+CFUN=1";
-const char * AT_CSTT = "AT+CSTT=\"econet.net\"";
+const char * AT_CSTT = "AT+CSTT=\"apn.net\"";
 const char * AT_CIPSPRT = "AT+CIPSPRT=0";
 const char * AT_CIICR = "AT+CIICR";
 const char * AT_CIFSR = "AT+CIFSR";
 
-const char * AT_CIPSTART = "AT+CIPSTART=\"TCP\",\"165.22.182.128\",\"9331\"";
+const char * AT_CIPSTART = "AT+CIPSTART=\"TCP\",\"YOUR_WEB_APP_SERVER_IP\",\"9331\"";
 const char * AT_CIPSEND = "AT+CIPSEND";
 const char * AT_CIPCLOSE = "AT+CIPCLOSE";
 
